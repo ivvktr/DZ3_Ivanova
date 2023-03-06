@@ -33,7 +33,7 @@ public class DeadlockTask extends Thread {
 
             }
         catch (Exception e) {
-            System.out.println("Не удалось выполнить вставку");
+            System.out.println("Не удалось выполнить изменения");
         }
     }
 
